@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+#root {
+  display: flex;
+
+  height: 100%;
+  width: 100%;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;  
+}
+  
+main .selectPokemon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 64px;
+  margin-bottom: 32px;
+}
+
+  
+main .selectPokemon select {
+  font-size: 16px;
+
+  height: 24px;
+  width: 124px;
+}
+
+main .pokemonInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 256px;
+  height: 512px;
+
+  border-radius: 16px;
+}
+  
+main .pokemonInfo img {
+  height: 124px;
+  width: 124px;
+
+  margin-top: 8px;
+  margin-bottom: 24px;
+  }
+  
+main .pokemonInfo section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  
+  height: 320px;
+  width: 240px;
+
+  border-radius: 16px;
+
+  background-color: white;
+}
+
+main .info {
+  font-size: 12px;
+}
+  
+main .pokemonInfo {
+  display: flex;
+  justify-content: center;
+
+  list-style: none;
+}
+  
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+  
+.container-text {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+
+  height: 100px;
+  width: 400px;
+}
+  
+
+
+.container-text p {
+  margin-top: 8px;
+}
+  
+.pokeType {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  font-size: 12px;
+
+  height: 32px;
+  width: 64px;
+
+  border-radius: 8px;
+
+  top: -20px;
+
+  color: white;
+  background-color: black;
+}
+  
+.pokeHability {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  width: 100%;
+
+  text-align: center;
+}
+  
+.pokeHability p {
+  font-size: 12px;
+}
+  
+  
+.flying {
+  background: linear-gradient(110deg, #fdbb2d 0%, #3a1c71 100%);
+}
+  
+.water {
+  background: linear-gradient(120deg, #1cb5e0 0%, #000851 100%);
+}
+  
+.fire {
+  background: linear-gradient(0deg, #c71800 10%, #fcc245 100%);
+}
+  
+.psychic {
+  background: linear-gradient(140deg, #ffa7f9 0%, #ff2cc3 39%, #ffe3a7 100%);
+}
+  
+.electric {
+  background: linear-gradient(140deg, #c4da3d 0%, #6e7f0e 69%, #275009 100%);
+}
+  
+.dark, .poison, .ghost {
+  background: linear-gradient(20deg, #191919 0%, #100b32 33%, #5c0249 100%);
+}
+  
